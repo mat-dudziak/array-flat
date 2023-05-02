@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "lib": ["ES2019"],
+    "module": "commonjs",
+    "target": "ES2019",
+    "sourceMap": true,                     /* Generates corresponding '.map' file. */
+    "removeComments": false,                /* Do not emit comments to output. */
+    "preserveConstEnums": true,
+    "strict": true,                           /* Enable all strict type-checking options. */
+    "noImplicitAny": true,                    /* Raise error on expressions and declarations with an implied 'any' type. */
+    "strictNullChecks": true,                 /* Enable strict null checks. */
+    "strictFunctionTypes": true,              /* Enable strict checking of function types. */
+    "strictPropertyInitialization": true,     /* Enable strict checking of property initialization in classes. */
+    "strictBindCallApply": true,
+    "noImplicitThis": true,                /* Raise error on 'this' expressions with an implied 'any' type. */
+    "alwaysStrict": true,                  /* Parse in strict mode and emit "use strict" for each source file. */
+    "forceConsistentCasingInFileNames": true,
+    "noUnusedLocals": true,                /* Report errors on unused locals. */
+    "noUnusedParameters": true,            /* Report errors on unused parameters. */
+    "noImplicitReturns": true,             /* Report error when not all code paths in function return a value. */
+    "noFallthroughCasesInSwitch": true,    /* Report errors for fallthrough cases in switch statement. */
+
+     "moduleResolution": "node",            /* Specify module resolution strategy: 'node' (Node.js) or 'classic' (TypeScript pre-1.6). */
+    "esModuleInterop": true,                  /* Enables emit interoperability between CommonJS and ES Modules via creation of namespace objects for all imports. Implies 'allowSyntheticDefaultImports'. */
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,        /* Enables experimental support for ES7 decorators. */
+    "emitDecoratorMetadata": true,         /* Enables experimental support for emitting type metadata for decorators. */
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true
+  },
+  "include": ["./src"],
+  "exclude": ["./node_modules", "./lib"]
+}

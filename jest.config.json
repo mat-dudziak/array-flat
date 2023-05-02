@@ -1,0 +1,37 @@
+{
+  "displayName": "Unit",
+  "roots": [
+    "src/"
+  ],
+  "testEnvironment": "node",
+  "coveragePathIgnorePatterns": [
+    "/node_modules/"
+  ],
+  "moduleFileExtensions": [
+    "js",
+    "ts",
+    "tsx"
+  ],
+  "transform": {
+    "^.+\\.(ts|tsx)$": "ts-jest"
+  },
+  "collectCoverage": true,
+  "coverageReporters": [
+    "json",
+    "json-summary",
+    "lcov",
+    "text",
+    "clover",
+    "html"
+  ],
+  "coverageThreshold": {
+    "global": {
+      "branches": 100,
+      "functions": 100,
+      "lines": 100,
+      "statements": 100
+    }
+  },
+  "coverageDirectory": "reports/coverage",
+  "modulePathIgnorePatterns": ["mocks", ".mock."]
+}
