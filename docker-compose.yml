@@ -1,0 +1,9 @@
+version: '3'
+services:
+  demo:
+    image: node:18.14.0
+    command: bash -c "npm ci && npm run test"
+    working_dir: /app
+    tty: true
+    volumes:
+      - './:/app'

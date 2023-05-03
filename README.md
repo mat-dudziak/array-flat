@@ -8,8 +8,11 @@
   `cd array-flat`
   - install dependencies
   `npm i`
-  - execute tests
-  `npm run test`
+  - execute tests:
+    - on you current setup
+      `npm run test`
+    - via Docker
+      - `docker compose up`
 
 ### About
 Suggested node version: 
