@@ -9,12 +9,9 @@
   - install dependencies
   `npm i`
   - execute tests:
-    - on you current setup
-      `npm run test`
-    - via Docker
-      - `docker compose up`
+    - on you current setup `npm run test`
+    - via Docker `docker compose up`
 
 ### About
-Suggested node version: 
 Logic is located at `./src/array-flat`
 Tests are located at `./src/tests`
